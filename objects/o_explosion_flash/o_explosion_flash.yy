@@ -1,38 +1,38 @@
 {
-    "id": "8cace9b3-bf9b-4f1a-80f6-3f8f2e2706ff",
+    "id": "47800afd-d828-445b-8699-6fef361cef0a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_ship_parent",
+    "name": "o_explosion_flash",
     "eventList": [
         {
-            "id": "d6644639-9fb3-4214-991f-f4a4dea49ad7",
+            "id": "4c9399ce-512c-4ea8-b927-2580b9ddf653",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "47800afd-d828-445b-8699-6fef361cef0a"
+        },
+        {
+            "id": "af350730-9819-4dd3-b100-f26c96bac1e4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
             "eventtype": 3,
-            "m_owner": "8cace9b3-bf9b-4f1a-80f6-3f8f2e2706ff"
+            "m_owner": "47800afd-d828-445b-8699-6fef361cef0a"
         },
         {
-            "id": "d76a490d-da5b-44dd-bf5c-a3a4abbedf7c",
+            "id": "0ae403ba-5736-4119-9fc1-7b07c7ec3794",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "8cace9b3-bf9b-4f1a-80f6-3f8f2e2706ff"
-        },
-        {
-            "id": "45b18734-159c-4dd6-8d47-9dc3fcb6752d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "8cace9b3-bf9b-4f1a-80f6-3f8f2e2706ff",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "8cace9b3-bf9b-4f1a-80f6-3f8f2e2706ff"
+            "eventtype": 8,
+            "m_owner": "47800afd-d828-445b-8699-6fef361cef0a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,35 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "82e783e1-b53e-4849-a957-8327de3a2fb9",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "armor",
-            "varType": 0
-        },
-        {
-            "id": "b7c59982-63f2-4909-bdda-4ec506efd208",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "max_speed",
-            "varType": 0
-        },
-        {
-            "id": "07ce2368-b6bc-4abf-a410-59b25134672a",
+            "id": "077b2740-8be1-4fc1-a822-92826c1a4409",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -91,11 +63,25 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0.1",
-            "varName": "acceleration",
+            "varName": "fade_speed",
+            "varType": 0
+        },
+        {
+            "id": "2c90e7bb-3035-429d-b280-74becb2d9525",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.75",
+            "varName": "scale",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "92739da9-b3fc-400d-9bd3-5c40bf4b1e78",
     "visible": true
 }

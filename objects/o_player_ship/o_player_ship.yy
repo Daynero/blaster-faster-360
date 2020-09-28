@@ -52,6 +52,22 @@
             "objectId": "8cace9b3-bf9b-4f1a-80f6-3f8f2e2706ff",
             "propertyId": "82e783e1-b53e-4849-a957-8327de3a2fb9",
             "value": "4"
+        },
+        {
+            "id": "90d460c7-fb5d-4ad6-8beb-b020ff00ad49",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8cace9b3-bf9b-4f1a-80f6-3f8f2e2706ff",
+            "propertyId": "07ce2368-b6bc-4abf-a410-59b25134672a",
+            "value": "0.2"
+        },
+        {
+            "id": "748fce48-4c00-4807-ad8f-46221d25ea36",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8cace9b3-bf9b-4f1a-80f6-3f8f2e2706ff",
+            "propertyId": "b7c59982-63f2-4909-bdda-4ec506efd208",
+            "value": "4"
         }
     ],
     "parentObjectId": "8cace9b3-bf9b-4f1a-80f6-3f8f2e2706ff",
@@ -69,34 +85,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "f8a3cf44-5b23-4434-a2b3-2a5ed7a6a0e4",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "4",
-            "varName": "max_speed",
-            "varType": 1
-        },
-        {
-            "id": "20398b46-59d4-4e1f-8a73-9ec04feac947",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0.2",
-            "varName": " acceleration",
-            "varType": 0
-        },
         {
             "id": "d4821f21-1e77-49fd-84b8-141be6676f45",
             "modelName": "GMObjectProperty",

@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0e14ed1f-5aea-4bbe-981d-feddbfeca18d",
+            "Value": {
+                "id": "e6400900-09d2-4866-9e1d-9a02c84e9218",
+                "resourcePath": "objects\\o_explosion_chunk\\o_explosion_chunk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1f2b342e-de48-462f-932a-fa9467623471",
             "Value": {
                 "id": "5f1d588b-0189-4272-b13f-f2e582c5d5a5",
@@ -52,6 +60,14 @@
                 "id": "761db9a6-88fb-43cb-a512-add77976aa71",
                 "resourcePath": "views\\2306c481-f24f-4972-844e-e466e52f9a2a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "234c6bea-d0bf-40e5-b555-017f3dfaaf06",
+            "Value": {
+                "id": "f0523495-619f-433b-be26-20ab859cd4b3",
+                "resourcePath": "objects\\o_ui\\o_ui.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -119,6 +135,14 @@
             }
         },
         {
+            "Key": "47800afd-d828-445b-8699-6fef361cef0a",
+            "Value": {
+                "id": "ea9ed31e-6498-4b53-8442-bfee500bde6a",
+                "resourcePath": "objects\\o_explosion_flash\\o_explosion_flash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "543e93ad-12b0-4c44-99ea-240c54c40b5f",
             "Value": {
                 "id": "a8ec9181-11d4-4aac-9424-f4538d5376ee",
@@ -140,6 +164,14 @@
                 "id": "f42c16c3-7dfb-46c5-b33e-237b7fedd25b",
                 "resourcePath": "sounds\\a_music\\a_music.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5adc7354-3e3a-457d-9e2c-769fb5a22d60",
+            "Value": {
+                "id": "97211efb-12c4-4975-9bb4-88e5d952e7b3",
+                "resourcePath": "objects\\o_enemy_ship_parent\\o_enemy_ship_parent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -167,6 +199,22 @@
             }
         },
         {
+            "Key": "706ca051-a739-417e-8d73-9aa3ea073afa",
+            "Value": {
+                "id": "da17e60d-e0cf-4fa1-a443-dc476684e997",
+                "resourcePath": "scripts\\move_toward_player\\move_toward_player.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "77aad343-edd6-426e-8f49-632cabfdd57c",
+            "Value": {
+                "id": "6a9bb7d7-60e2-4379-aed6-21895f438468",
+                "resourcePath": "objects\\o_enemy_laser\\o_enemy_laser.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "78d9254c-43e9-40b1-876b-c365813d3928",
             "Value": {
                 "id": "ad631c0b-2bd2-486b-9f15-9a970733ea6e",
@@ -180,6 +228,14 @@
                 "id": "4be5201f-c64c-4005-944f-a6f398e766f3",
                 "resourcePath": "scripts\\create_laser_effect\\create_laser_effect.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7a91faf1-afed-4b80-9703-ea3eff63dbd1",
+            "Value": {
+                "id": "dd4db199-f391-4445-bf20-59a9a386e225",
+                "resourcePath": "objects\\o_enemy_two\\o_enemy_two.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -234,8 +290,16 @@
             "Key": "92739da9-b3fc-400d-9bd3-5c40bf4b1e78",
             "Value": {
                 "id": "fcccc95c-0879-4c7a-83c1-b2d2a86f6f63",
-                "resourcePath": "sprites\\s_explosion_center\\s_explosion_center.yy",
+                "resourcePath": "sprites\\s_explosion_flash\\s_explosion_flash.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "92ac30ea-cbf8-49e0-b3e2-81f67abeab89",
+            "Value": {
+                "id": "2f498a7b-682f-4c7c-992f-41f034331dfc",
+                "resourcePath": "fonts\\f_one\\f_one.yy",
+                "resourceType": "GMFont"
             }
         },
         {
