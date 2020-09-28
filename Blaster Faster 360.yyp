@@ -143,6 +143,22 @@
             }
         },
         {
+            "Key": "4a48f7d3-99ba-442a-b75a-8e5dbbc487d4",
+            "Value": {
+                "id": "00de809e-b544-4643-8e9a-f5ce05867701",
+                "resourcePath": "scripts\\spawn_enemies\\spawn_enemies.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4a61c9e0-3caa-41d7-ab01-930157c4791f",
+            "Value": {
+                "id": "243281ca-e9ee-41d3-acf2-9e22b84f58dc",
+                "resourcePath": "objects\\o_enemy_spawner\\o_enemy_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "543e93ad-12b0-4c44-99ea-240c54c40b5f",
             "Value": {
                 "id": "a8ec9181-11d4-4aac-9424-f4538d5376ee",
@@ -203,6 +219,14 @@
             "Value": {
                 "id": "da17e60d-e0cf-4fa1-a443-dc476684e997",
                 "resourcePath": "scripts\\move_toward_player\\move_toward_player.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "72cf06c3-9e68-4893-9914-884d4bda2efa",
+            "Value": {
+                "id": "2eddfa7a-5560-4456-b366-037e938eb8e6",
+                "resourcePath": "scripts\\hit_enemy\\hit_enemy.yy",
                 "resourceType": "GMScript"
             }
         },

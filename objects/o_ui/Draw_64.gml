@@ -16,6 +16,6 @@ var _x_score = room_width - _score_sprite_width - 8;
 var _y_score = 8;
 
 draw_sprite(s_score, 0, _x_score, _y_score);
-draw_text(_x_score + _score_sprite_width - 3, _y_score + 1, "45");
+draw_text(_x_score + _score_sprite_width - 3, _y_score + 1, score);
 draw_set_halign(fa_left);
 #endregion
