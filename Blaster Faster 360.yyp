@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "2a996ca3-9627-49e8-8e90-d3f5d0809ffd",
+            "Value": {
+                "id": "efbfc642-90d6-4147-8522-c649396e588b",
+                "resourcePath": "rooms\\r_menu\\r_menu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "319fd37b-5a52-4260-9402-83c30f73d3fe",
             "Value": {
                 "id": "118ee974-bef3-4037-9385-685c4ba01daa",
@@ -116,6 +124,14 @@
                 "id": "b855fcfd-0282-441d-895f-ee98f06404be",
                 "resourcePath": "sprites\\s_score\\s_score.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f6d9ff8-3c18-4426-8c8a-d8c7a2034001",
+            "Value": {
+                "id": "17b549e4-6f99-4ea3-bef0-8b8b98501ebb",
+                "resourcePath": "scripts\\quit_button\\quit_button.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -295,6 +311,14 @@
             }
         },
         {
+            "Key": "8944cdba-0c51-427a-a7e3-f6b3142ec2c3",
+            "Value": {
+                "id": "f546e4cd-b4f7-4651-89d2-bf0c8847b313",
+                "resourcePath": "objects\\o_timer\\o_timer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8cace9b3-bf9b-4f1a-80f6-3f8f2e2706ff",
             "Value": {
                 "id": "cdc24a16-c725-4a62-a0ac-65848ab70736",
@@ -375,6 +399,14 @@
             }
         },
         {
+            "Key": "a214d74f-d182-4892-97e7-030b99f02de2",
+            "Value": {
+                "id": "65fb2722-2c8b-4d63-a3b1-d3c513624204",
+                "resourcePath": "objects\\o_button\\o_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a8bc8cc7-e5bd-4dde-be4e-df091c04d3ed",
             "Value": {
                 "id": "9505a6c8-f2a3-4ad5-bb0a-e8d82f4c1b24",
@@ -435,6 +467,14 @@
             "Value": {
                 "id": "2383fa2f-0b17-4c51-9a92-39dd5b3329eb",
                 "resourcePath": "scripts\\create_left_lasers\\create_left_lasers.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c9fd2a0b-9e9a-4ce6-9bb6-49a02a2a1323",
+            "Value": {
+                "id": "50e59ec5-fc77-4492-b639-ba48b9047551",
+                "resourcePath": "scripts\\start_button\\start_button.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -568,7 +608,9 @@
         "c17c00b8-cbf7-44f3-9838-c7cc9dd333ff",
         "706ca051-a739-417e-8d73-9aa3ea073afa",
         "72cf06c3-9e68-4893-9914-884d4bda2efa",
-        "4a48f7d3-99ba-442a-b75a-8e5dbbc487d4"
+        "4a48f7d3-99ba-442a-b75a-8e5dbbc487d4",
+        "c9fd2a0b-9e9a-4ce6-9bb6-49a02a2a1323",
+        "3f6d9ff8-3c18-4426-8c8a-d8c7a2034001"
     ],
     "tutorial": ""
 }
