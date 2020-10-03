@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "321aeedb-9fdd-4335-8669-4fe804e6e6f0",
+            "Value": {
+                "id": "ab9f3a33-2910-41e2-ba22-a4366e355787",
+                "resourcePath": "objects\\o_screen_shake\\o_screen_shake.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "32ebf3d2-b9e7-415c-ad8e-209817dc6e3a",
             "Value": {
                 "id": "da3814b2-440a-46ce-9467-8363c6767ee3",
@@ -314,7 +322,7 @@
             "Key": "8944cdba-0c51-427a-a7e3-f6b3142ec2c3",
             "Value": {
                 "id": "f546e4cd-b4f7-4651-89d2-bf0c8847b313",
-                "resourcePath": "objects\\o_timer\\o_timer.yy",
+                "resourcePath": "objects\\o_death_timer\\o_death_timer.yy",
                 "resourceType": "GMObject"
             }
         },

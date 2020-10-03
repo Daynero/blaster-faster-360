@@ -7,3 +7,5 @@ repeat (16) {
 }
 
 audio_play_sound(a_explode, 4, false);
+
+instance_create_layer(0, 0, "Instances", o_screen_shake);

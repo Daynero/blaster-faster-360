@@ -1,4 +1,5 @@
-#region Draw the player ship armor
+if (room == r_space) {
+	#region Draw the player ship armor
 var _player_ship = instance_find(o_player_ship, 0);
 var _armor = 0;
 if (_player_ship != noone) {
@@ -9,7 +10,7 @@ var _y_armor = 8;
 
 draw_sprite(s_armor, _armor, _x_armor, _y_armor)
 #endregion
-#region Draw the player score
+	#region Draw the player score
 draw_set_halign(fa_right);
 var _score_sprite_width = sprite_get_width(s_score);
 var _x_score = room_width - _score_sprite_width - 8;
@@ -19,3 +20,13 @@ draw_sprite(s_score, 0, _x_score, _y_score);
 draw_text(_x_score + _score_sprite_width - 3, _y_score + 1, score);
 draw_set_halign(fa_left);
 #endregion
+} else {
+	#region Draw highscore
+	var _score_x = room_width - 11;
+	var _score_y = 9;
+	
+	draw_set_halign(fa_right);
+	draw_text(_score_x, _score_y, "Highscore: " + string(global.highscore));
+	draw_set_halign(fa_left);
+	#endregion
+}
